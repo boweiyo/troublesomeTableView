@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84894ADA1AD65587001CEFF2 /* IconDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 84894AD91AD65587001CEFF2 /* IconDownloader.m */; };
+		84D4AC031AD6250B00C8EA80 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D4AC021AD6250B00C8EA80 /* CustomCell.m */; };
 		84E671B81AD4DE6F00980C5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E671B71AD4DE6F00980C5A /* main.m */; };
 		84E671BB1AD4DE6F00980C5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E671BA1AD4DE6F00980C5A /* AppDelegate.m */; };
 		84E671BE1AD4DE6F00980C5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E671BD1AD4DE6F00980C5A /* ViewController.m */; };
@@ -28,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84894AD81AD65587001CEFF2 /* IconDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconDownloader.h; sourceTree = "<group>"; };
+		84894AD91AD65587001CEFF2 /* IconDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconDownloader.m; sourceTree = "<group>"; };
+		84D4AC011AD6250B00C8EA80 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		84D4AC021AD6250B00C8EA80 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 		84E671B21AD4DE6F00980C5A /* UITableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E671B61AD4DE6F00980C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84E671B71AD4DE6F00980C5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -92,6 +98,10 @@
 				84E671C21AD4DE6F00980C5A /* Images.xcassets */,
 				84E671DC1AD5189100980C5A /* MeetUp.h */,
 				84E671DD1AD5189100980C5A /* MeetUp.m */,
+				84D4AC011AD6250B00C8EA80 /* CustomCell.h */,
+				84D4AC021AD6250B00C8EA80 /* CustomCell.m */,
+				84894AD81AD65587001CEFF2 /* IconDownloader.h */,
+				84894AD91AD65587001CEFF2 /* IconDownloader.m */,
 				84E671C41AD4DE6F00980C5A /* LaunchScreen.xib */,
 				84E671B51AD4DE6F00980C5A /* Supporting Files */,
 			);
@@ -225,9 +235,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				84E671BE1AD4DE6F00980C5A /* ViewController.m in Sources */,
+				84894ADA1AD65587001CEFF2 /* IconDownloader.m in Sources */,
 				84E671BB1AD4DE6F00980C5A /* AppDelegate.m in Sources */,
 				84E671B81AD4DE6F00980C5A /* main.m in Sources */,
 				84E671DE1AD5189100980C5A /* MeetUp.m in Sources */,
+				84D4AC031AD6250B00C8EA80 /* CustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +430,7 @@
 				84E671D71AD4DE7000980C5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84E671D81AD4DE7000980C5A /* Build configuration list for PBXNativeTarget "UITableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +439,7 @@
 				84E671DA1AD4DE7000980C5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

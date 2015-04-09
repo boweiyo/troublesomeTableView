@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface MeetUp : NSObject
 
@@ -16,5 +17,6 @@
 @property (nonatomic,strong)NSString *country;
 @property (nonatomic,strong)NSString *city;
 @property (nonatomic,strong)NSString *img;
+@property (nonatomic, strong) UIImage *icon;
 
 @end
