@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UITableViewController <NSURLConnectionDelegate>
 
+@property (strong, nonatomic) IBOutlet UILabel *labelMeetupName;
+@property (strong, nonatomic) IBOutlet UILabel *labelEventAttendee;
+@property (strong, nonatomic) IBOutlet UILabel *labelDescription;
+@property (strong, nonatomic) IBOutlet UIImageView *ivMeetupImg;
+@property (strong, nonatomic) IBOutlet UILabel *labelCityCountry;
 
 @end
 

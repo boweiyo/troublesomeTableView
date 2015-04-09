@@ -14,6 +14,7 @@
 		84E671C31AD4DE6F00980C5A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E671C21AD4DE6F00980C5A /* Images.xcassets */; };
 		84E671C61AD4DE6F00980C5A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E671C41AD4DE6F00980C5A /* LaunchScreen.xib */; };
 		84E671D21AD4DE7000980C5A /* UITableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E671D11AD4DE7000980C5A /* UITableViewTests.m */; };
+		84E671DE1AD5189100980C5A /* MeetUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E671DD1AD5189100980C5A /* MeetUp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		84E671CB1AD4DE6F00980C5A /* UITableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E671D01AD4DE7000980C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84E671D11AD4DE7000980C5A /* UITableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewTests.m; sourceTree = "<group>"; };
+		84E671DC1AD5189100980C5A /* MeetUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetUp.h; sourceTree = "<group>"; };
+		84E671DD1AD5189100980C5A /* MeetUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeetUp.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				84E671BD1AD4DE6F00980C5A /* ViewController.m */,
 				84E671BF1AD4DE6F00980C5A /* Main.storyboard */,
 				84E671C21AD4DE6F00980C5A /* Images.xcassets */,
+				84E671DC1AD5189100980C5A /* MeetUp.h */,
+				84E671DD1AD5189100980C5A /* MeetUp.m */,
 				84E671C41AD4DE6F00980C5A /* LaunchScreen.xib */,
 				84E671B51AD4DE6F00980C5A /* Supporting Files */,
 			);
@@ -222,6 +227,7 @@
 				84E671BE1AD4DE6F00980C5A /* ViewController.m in Sources */,
 				84E671BB1AD4DE6F00980C5A /* AppDelegate.m in Sources */,
 				84E671B81AD4DE6F00980C5A /* main.m in Sources */,
+				84E671DE1AD5189100980C5A /* MeetUp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
